@@ -1,0 +1,38 @@
+draft.py
+
+# Файли, які можна ігнорувати
+*.pyc
+*.pyo
+__pycache__/
+
+# Папки міграцій Django
+**/migrations/
+
+# Файли конфігурації та середовища
+.env
+*.env
+*.env.*
+.idea/vcs.xml
+
+# Файли логів
+*.log
+
+# Кеш та файли віртуального середовища
+__pycache__/
+
+# Збережені файли PyCharm
+.idea/
+
+secrets.json
+secret_key.txt
+
+# Файли для локальних налаштувань
+local_settings.py
+
+# Віртуальне середовище для poetry
+.poetry/
+.poetry-manifest.toml
+__pypackages__/
+
+# Файли для бази даних PostgreSQL
+*.psql
