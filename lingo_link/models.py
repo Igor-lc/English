@@ -28,7 +28,6 @@ def validate_english_enchant(value):
         if not dictionary.check(word):
             raise ValidationError(f"Misspelled word: {word}")
 
-
 class Verb(models.Model):
     PARTS_OF_SPEECH_CHOICES = [
         ('RegularVerbs', 'Regular Verbs'),
